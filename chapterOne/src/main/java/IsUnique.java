@@ -1,7 +1,10 @@
+
 import java.lang.reflect.Array;
 import java.util.HashMap;
 import java.util.Map;
 
+//Is Unique: Implement an algorithm to determine if a string has all unique characters. What if you
+//cannot use additional data structures?
 public class IsUnique {
 
     public static Map<String, Integer> uniqueArray = new HashMap<String, Integer>();
