@@ -1,5 +1,10 @@
 import org.jetbrains.annotations.NotNull;
 
+
+//        URLify: Write a method to replace all spaces in a string with '%20'. You may assume that the string
+//        has sufficient space at the end to hold the additional characters, and that you are given the "true"
+//        length of the string. (Note: If implementing in Java, please use a character array so that you can
+//        perform this operation in place.)
 public class URLify {
 
     public static @NotNull String URLify(@NotNull String str){
@@ -15,7 +20,7 @@ public class URLify {
     }
 
     public static void main(String[] args) {
-        String str = "israel david dahan";
+        String str = "we see a space, we replace it with %20. If there is no space, then we copy the original character.";
         String urlify = URLify(str);
         System.out.println(urlify);
 //        CheckPermutation.checkPermutation(strOne, strTwo)
