@@ -29,7 +29,7 @@ public class OneWay {
     }
     public static void main(String[] args) {
         String text1 = "pale";
-        String text1Edit = "pal ";
+        String text1Edit = "pal";
         String text2 = "pales";
         String text2Edit = "pale";
         String text3 = "pale";
