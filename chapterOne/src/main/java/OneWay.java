@@ -25,11 +25,7 @@ public class OneWay {
                 flagOneWay = flagOneWay + 1;
             }
         }
-        if (flagOneWay > 1) {
-            return false;
-        }else {
-            return true;
-        }
+        return flagOneWay <= 1;
     }
     public static void main(String[] args) {
         String text1 = "pale";
