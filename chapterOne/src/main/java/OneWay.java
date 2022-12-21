@@ -13,10 +13,8 @@ public class OneWay {
             }
         }
         for (int i = 0; i < source.length(); i++){
-            char c = '\0', ce = '\0';
-            if (source.length() > i ) {
-                c = source.charAt(i);
-            }
+            char ce = '\0';
+            char c = source.charAt(i);
             if (edited.length() > i ){
                 ce = edited.charAt(i);
             }
